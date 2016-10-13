@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = ">= 2.0"
 
-  s.add_runtime_dependency("activeresource", ">= 5")
+  s.add_runtime_dependency("activeresource", ">= 4.1")
   s.add_runtime_dependency("rack")
 
   s.add_development_dependency("mocha", ">= 0.9.8")
